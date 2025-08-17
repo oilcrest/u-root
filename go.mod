@@ -1,6 +1,6 @@
 module github.com/u-root/u-root
 
-go 1.19
+go 1.23.0
 
 require (
 	github.com/ProtonMail/go-crypto v0.0.0-20221026131551-cf6655e29de4
@@ -11,7 +11,7 @@ require (
 	github.com/dustin/go-humanize v1.0.1
 	github.com/gliderlabs/ssh v0.1.2-0.20181113160402-cbabf5414432
 	github.com/gojuno/minimock/v3 v3.0.8
-	github.com/google/go-cmp v0.5.9
+	github.com/google/go-cmp v0.6.0
 	github.com/google/go-tpm v0.9.0
 	github.com/google/goexpect v0.0.0-20191001010744-5b6988669ffa
 	github.com/google/uuid v1.3.0
@@ -36,11 +36,11 @@ require (
 	github.com/ulikunitz/xz v0.5.8
 	github.com/vishvananda/netlink v1.1.1-0.20211118161826-650dca95af54
 	github.com/vtolstov/go-ioctl v0.0.0-20151206205506-6be9cced4810
-	golang.org/x/crypto v0.3.1-0.20221117191849-2c476679df9a
-	golang.org/x/sys v0.9.0
-	golang.org/x/term v0.9.0
-	golang.org/x/text v0.10.0
-	golang.org/x/tools v0.6.0
+	golang.org/x/crypto v0.36.0
+	golang.org/x/sys v0.31.0
+	golang.org/x/term v0.30.0
+	golang.org/x/text v0.23.0
+	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d
 	gopkg.in/yaml.v2 v2.2.8
 	mvdan.cc/sh/v3 v3.7.0
 	pack.ag/tftp v1.0.1-0.20181129014014-07909dfbde3c
@@ -77,9 +77,9 @@ require (
 	github.com/rivo/uniseg v0.4.4 // indirect
 	github.com/sahilm/fuzzy v0.1.0 // indirect
 	github.com/vishvananda/netns v0.0.0-20210104183010-2eb08e3e575f // indirect
-	golang.org/x/mod v0.8.0 // indirect
-	golang.org/x/net v0.7.0 // indirect
-	golang.org/x/sync v0.3.0 // indirect
+	golang.org/x/mod v0.17.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
+	golang.org/x/sync v0.12.0 // indirect
 	google.golang.org/grpc v1.53.0 // indirect
 )
 
