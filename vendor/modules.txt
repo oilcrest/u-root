@@ -50,8 +50,8 @@ github.com/charmbracelet/bubbletea
 # github.com/charmbracelet/lipgloss v0.7.1
 ## explicit; go 1.17
 github.com/charmbracelet/lipgloss
-# github.com/cloudflare/circl v1.3.3
-## explicit; go 1.19
+# github.com/cloudflare/circl v1.6.1
+## explicit; go 1.22.0
 github.com/cloudflare/circl/dh/x25519
 github.com/cloudflare/circl/dh/x448
 github.com/cloudflare/circl/ecc/goldilocks
@@ -273,11 +273,13 @@ github.com/vishvananda/netns
 # github.com/vtolstov/go-ioctl v0.0.0-20151206205506-6be9cced4810
 ## explicit
 github.com/vtolstov/go-ioctl
-# golang.org/x/crypto v0.3.1-0.20221117191849-2c476679df9a
+# golang.org/x/crypto v0.11.1-0.20230711161743-2e82bdd1719d
 ## explicit; go 1.17
 golang.org/x/crypto/blowfish
 golang.org/x/crypto/cast5
 golang.org/x/crypto/chacha20
+golang.org/x/crypto/cryptobyte
+golang.org/x/crypto/cryptobyte/asn1
 golang.org/x/crypto/curve25519
 golang.org/x/crypto/curve25519/internal/field
 golang.org/x/crypto/ed25519
@@ -293,7 +295,7 @@ golang.org/x/mod/internal/lazyregexp
 golang.org/x/mod/modfile
 golang.org/x/mod/module
 golang.org/x/mod/semver
-# golang.org/x/net v0.7.0
+# golang.org/x/net v0.10.0
 ## explicit; go 1.17
 golang.org/x/net/bpf
 golang.org/x/net/internal/iana
@@ -303,7 +305,7 @@ golang.org/x/net/ipv6
 # golang.org/x/sync v0.3.0
 ## explicit; go 1.17
 golang.org/x/sync/errgroup
-# golang.org/x/sys v0.9.0
+# golang.org/x/sys v0.10.0
 ## explicit; go 1.17
 golang.org/x/sys/cpu
 golang.org/x/sys/execabs
@@ -311,10 +313,10 @@ golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/plan9
 golang.org/x/sys/unix
 golang.org/x/sys/windows
-# golang.org/x/term v0.9.0
+# golang.org/x/term v0.10.0
 ## explicit; go 1.17
 golang.org/x/term
-# golang.org/x/text v0.10.0
+# golang.org/x/text v0.11.0
 ## explicit; go 1.17
 golang.org/x/text/feature/plural
 golang.org/x/text/internal
